@@ -27,7 +27,7 @@ export function FileSelector({ onFileSelect }: FileSelectorProps) {
       <input
         ref={inputRef}
         type="file"
-        accept="audio/*"
+        accept="audio/*, .mp3, .m4a, .m4b, .aac, .wav, .ogg, .flac, .wma"
         onChange={handleChange}
         className="hidden"
       />
